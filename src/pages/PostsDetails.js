@@ -1,16 +1,17 @@
 import React, { useCallback, useEffect, useState } from 'react';
+import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { useQuery } from "../halpers/useQuery";
-import { useDispatch, useSelector } from "react-redux";
 import { selectCommentsItem, selectIsPostLoading, selectPostItem } from "../store/ducks/post/selector";
 import { fetchComments, fetchPost, fetchUpdatePost } from "../store/ducks/post/actionCreator";
+
 import { Loader } from "../components/Loader";
+import { PostForm } from "../components/PostForm";
 
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import ArrowDownI from '@material-ui/icons/KeyboardArrowDown'
 import ArrowUpI from '@material-ui/icons/KeyboardArrowUp'
-import { PostForm } from "../components/PostForm";
 
 export const PostsDetails = () => {
     const [open, setOpen] = useState(false);

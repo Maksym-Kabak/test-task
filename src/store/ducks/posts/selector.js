@@ -1,4 +1,4 @@
-import { LOADED, LOADING } from "./type";
+import { LOADED, LOADING } from "./types";
 
 const selectPostsState = (state) => state.posts
 

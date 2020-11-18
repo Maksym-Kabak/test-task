@@ -4,7 +4,8 @@ import { UserPage } from "./pages/UserPage";
 import { Posts } from "./pages/Posts";
 import { AuthPage } from "./pages/AuthPage";
 import { PostsDetails } from "./pages/PostsDetails";
-import NasaNews from "./pages/NasaNews";
+import { NasaNews } from "./pages/NasaNews";
+
 
 export const useRoutes = isAuthenticated => {
 

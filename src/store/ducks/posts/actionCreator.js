@@ -1,4 +1,4 @@
-import { ADD_POST, DELETE_POST, FETCH_ADD_POST, FETCH_DELETE_POST, FETCH_POSTS, SET_LOADING, SET_POSTS } from "./type";
+import { ADD_POST, DELETE_POST, FETCH_ADD_POST, FETCH_DELETE_POST, FETCH_POSTS, SET_LOADING, SET_POSTS } from "./types";
 
 export const fetchPosts = (userId) => ({
     type: FETCH_POSTS,

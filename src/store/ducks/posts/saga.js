@@ -1,7 +1,7 @@
 import { takeEvery, call, put } from 'redux-saga/effects'
 import { postsAPI } from '../../../api'
 import { addPost, deletePost, setLoadingPost, setPosts } from './actionCreator'
-import { ERROR, FETCH_ADD_POST, FETCH_DELETE_POST, FETCH_POSTS } from "./type";
+import { ERROR, FETCH_ADD_POST, FETCH_DELETE_POST, FETCH_POSTS } from "./types";
 
 
 function* fetchPostsSaga({ payload }) {

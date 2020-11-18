@@ -1,4 +1,4 @@
-import { FETCH_USERS, SET_LOADING, SET_USERS } from "./type";
+import { FETCH_USERS, SET_LOADING, SET_USERS } from "./types";
 
 export const setLoadingUsers = (payload) => ({
     type: SET_LOADING,

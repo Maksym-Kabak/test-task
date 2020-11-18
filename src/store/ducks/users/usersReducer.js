@@ -1,5 +1,5 @@
 import produce from 'immer'
-import { FETCH_USERS, LOADED, LOADING, SET_LOADING, SET_USERS } from "./type";
+import { FETCH_USERS, LOADED, LOADING, SET_LOADING, SET_USERS } from "./types";
 
 const initialUsersState = {
     users: [],

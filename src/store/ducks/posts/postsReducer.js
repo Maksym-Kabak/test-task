@@ -8,7 +8,7 @@ import {
     LOADED,
     LOADING, SET_LOADING,
     SET_POSTS
-} from "./type";
+} from "./types";
 
 
 const initialPostsState = {
